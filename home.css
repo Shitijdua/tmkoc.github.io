@@ -1,0 +1,339 @@
+* {
+    max-width: 100%;
+    padding: 5px 0;
+}
+
+/* title - taarakmehtakaooltah chashmah fanclub */
+
+.title a {
+    color:#FFFFFF;
+   background-color:#004b79; 
+    padding: 10px 30px;
+   /* border: 3px solid #BA4530; */
+    text-decoration: none;
+}
+
+.title a:hover {
+    background-color: black;
+}
+
+header h1 {
+    text-align: center;
+    color: magenta;
+   font-weight: bolder;
+   margin-bottom: 20px;
+}
+
+.tagline {
+text-align: center;
+font-size: x-large;
+
+}
+
+.tagline a {
+   /* background-color: #004b79; */
+    color: #004b79;
+    text-decoration: none;
+    border: #BA4530;
+}
+/*
+.tagline a:hover {
+    background-color: black;
+} */
+
+/*.column {
+    float: left;
+    width: 33.332%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+} */
+
+
+table tr {
+    
+    }
+
+    /*
+    .abovefooter {
+    float: left;
+    width: 33.332%;
+    } 
+    */
+
+
+body {
+    background-color: #FFFF99;
+}
+
+img {
+    margin-left: 320px;    
+    height: auto;
+text-align: center;
+    }
+
+/* image formatting */
+
+
+.image-banner {
+   
+}
+
+.banner-description {
+    position: absolute;
+    bottom: 0;
+    top: auto;
+    left: 330px;
+    bottom: 50px;
+    color: white;
+    background-color:rgba(0,0, 0, .65);
+    font-size: large;
+    font-weight: bold;
+}
+
+.image-banner img {
+    position: relative;
+    display: block;
+}
+
+/* navigation */
+
+.site-navigation {
+
+    text-align: center;
+   margin-top: 40px;
+   font-size: x-large;
+
+}
+
+.site-navigation a:hover {
+    background-color: black;
+}
+
+.site-navigation li {
+    float: left;
+    width: 25%;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.site-navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-navigation a {
+    display: block;
+    text-decoration: none;
+   color: #ffffff;
+   background-color: #BA4530;
+   padding: 10px 2px;
+   border: 3px solid #BA4530;
+
+}
+
+/* main content welcome to*/
+
+.main-content {
+    float: left;
+    width: 55%;
+    margin-left: 25px;
+   
+}
+
+.side-content {
+    float: right;
+    width:35%;
+    margin-right: 25px;
+}
+
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+} 
+
+.main-content {
+    font-size: large;
+}
+
+
+
+.foot {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding-right: 2px;
+   
+}
+
+table {
+    background-color:#00112c;
+    table-layout: fixed ;
+    width: 100%;
+}
+
+td {
+    width: 25% ;
+    text-align: center;
+  }
+
+.tableandfooter {
+    background-color: #00112c;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    
+}
+
+th {
+    text-decoration: none;
+    color: black;
+}
+
+table tr a {
+    color: whitesmoke;
+    text-decoration: none;
+    text-shadow: #00112c;
+    font-size: x-large;
+    
+}
+
+td {
+    border-spacing: 2px;
+    font-size: large;
+    color:white;
+    
+}
+
+table tr a:hover {
+    background-color: black;
+}
+
+.logo {
+    position: relative;
+    width:15%;
+    left: 15%;
+}
+
+@media screen and (max-width:1260px) {
+img {
+    margin-left: 100px;
+}
+.logo {
+
+    left: 200px; 
+
+}
+
+}
+
+
+@media screen and (max-width:1060px) {
+
+    .title a {
+        font-size: larger;
+    }
+
+    img {
+       margin-left: 0;
+    }
+    .logo {
+
+        left: 200px; 
+
+    }
+
+}
+
+@media screen and (max-width:700px) {
+
+    .main-content,
+    .side-content {
+        width: auto;
+        float: none;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .main-content {
+        
+        margin-left: 25px;
+    }
+
+    .side-content {
+        margin-left: 25px;
+    }
+
+   .tableandfooter {
+        font-size: small;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .tableandfooter a {
+        font-size: small;
+    }
+
+    img {
+        width: auto;
+    }
+
+   th {
+       font-size: small;
+   }
+    td {
+        
+        font-size: small;
+    }
+
+    th {
+        padding-right: 20px;
+    }
+
+    .site-navigation {
+        font-size: large;
+    }
+
+    .title a {
+        font-size: larger;
+    }
+
+    .tagline a {
+        font-size: large;
+    }
+
+    .logo {
+
+        left: 200px; 
+
+    }
+
+    img {
+        margin-left: 0px;
+    }
+    
+
+}
+
+@media screen and (max-width: 480px) {
+
+   
+  
+}
+
+
+
+
+
+
+
